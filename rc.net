@@ -1,0 +1,5 @@
+* Spice netlister for gnetlist
+3nF n1 n2 <No valid value attribute found>
+SIN (1 10 1kHz) 0 n1 <No valid value attribute found>
+1K n2 0 <No valid value attribute found>
+.END

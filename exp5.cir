@@ -1,0 +1,29 @@
+Experiment 3 RC Phase Shift Oscillator Circuit using OPamp 741
+*22-01-2017
+*http://www.allaboutcircuits.com/textbook/reference/chpt-7/example-circuits-and-netlists/
+.include ua741.txt
+*LM741
+x1 1 2 3 4 5 UA741
+*Dual DC Power Supply
+vcc 3 0 dc 12v
+vee 4 0 dc -12v
+*Components Value
+rf 5 2 1Meg
+r1 0 2 33k
+r2 6 1 10k
+r3 7 1 10k
+r4 0 1 10k
+c1 6 5 10n
+c2 7 6 10n
+c3 0 7 10n
+*Transient Analysis
+.tran 0.02ms 6ms
+.control
+run
+write
+display
+print all
+plot v(5)
+.endc
+.end
+
