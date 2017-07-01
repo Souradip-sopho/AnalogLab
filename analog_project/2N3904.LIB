@@ -1,0 +1,50 @@
+******
+* Spice Model
+* Item: 2N3904
+* Date: 8/18/10
+* Revision History: A
+* ==========================================================
+* This model was developed by: 
+* Central Semiconductor Corp.
+* 145 Adams Avenue
+* Hauppauge, NY 11788
+*
+* These models are subject to change without notice.
+* Users may not directly or indirectly re-sell or 
+* re-distribute this model. This model may not 
+* be modified, or altered without the consent of Central Semiconductor Corp. 
+*
+* For more information on this model contact
+* Central Semiconductor Corp. at:
+* (631) 435-1110 or Engineering@centralsemi.com
+* http://www.centralsemi.com
+* ==========================================================
+******
+*SRC=2N3904;2N3904;BJTs NPN; Si;  60.0V  0.20A  300MHz   Central Semi Central Semi
+.MODEL 2N3904  NPN (
++ IS=4.9148E-15
++ BF=191.70
++ VAF=100
++ IKF=.28579
++ ISE=11.882E-15
++ NE=1.4422
++ BR=5.6808
++ VAR=100
++ IKR=61.753E-3
++ ISC=71.145E-12
++ NC=1.6595
++ NK=.8296
++ RB=5.8072
++ RC=.70808
++ CJE=6.9435E-12
++ VJE=.61872
++ MJE=.27802
++ CJC=3.7572E-12
++ VJC=1.2237
++ MJC=.28886
++ TF=523.89E-12
++ XTF=83.066
++ VTF=67.769
++ ITF=1.8804
++ TR=10.000E-9 )
+******
